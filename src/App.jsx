@@ -1,10 +1,16 @@
 import { GlobalStyles } from "./GlobalStyles/GlobalStyles";
+import CardContainer from "./components/cardsContainer/CardContainer";
+import Form from "./components/form/Form";
+import MainContainer from "./components/mainContainer/MainContainer";
 
 const App = () => {
 	return <>
 	<GlobalStyles></GlobalStyles>
-	<h1>Núcleo de la aplicación</h1>;
-	
+	<MainContainer>
+
+		<CardContainer/>
+	<Form></Form>
+	</MainContainer>
 	
 	</> 
 	
